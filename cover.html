@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 720px; overflow: hidden; }
+  body {
+    background:
+      radial-gradient(ellipse at 50% 120%, rgba(232,93,16,0.16), transparent 55%),
+      radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.55) 100%),
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0 1px, transparent 1px 3px),
+      repeating-linear-gradient(90deg, rgba(0,0,0,0.06) 0 2px, transparent 2px 7px),
+      #12100d;
+    font-family: 'Arial Black', Arial, sans-serif;
+    color: #e8e0d4;
+    display: flex; flex-direction: column;
+    padding: 46px 64px;
+    position: relative;
+  }
+  .corner { position: absolute; width: 26px; height: 26px; border: 3px solid #6b6257; }
+  .tl { top: 22px; left: 22px; border-right: none; border-bottom: none; }
+  .tr { top: 22px; right: 22px; border-left: none; border-bottom: none; }
+  .bl { bottom: 22px; left: 22px; border-right: none; border-top: none; }
+  .br { bottom: 22px; right: 22px; border-left: none; border-top: none; }
+  .topline { display: flex; justify-content: space-between; align-items: center;
+    font: 700 17px 'Consolas', monospace; letter-spacing: 4px; color: #9a8f80; }
+  .topline .ember { color: #ff7a26; }
+  .rule { height: 4px; background: linear-gradient(90deg, #e85d10, #ff8c3a 40%, rgba(232,93,16,0.15)); margin: 18px 0 0; }
+  .main { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+  .kicker { font: 700 22px 'Consolas', monospace; letter-spacing: 10px; color: #b3a795; margin-bottom: 14px; }
+  h1 { font-family: 'Stencil', 'Arial Black', sans-serif; font-size: 108px; line-height: 0.95;
+    letter-spacing: 2px; color: #ede4d6; text-transform: uppercase;
+    text-shadow: 0 4px 0 rgba(0,0,0,0.55), 0 0 42px rgba(232,93,16,0.22); }
+  h1 .ember { color: #ff7a26; text-shadow: 0 4px 0 rgba(0,0,0,0.55), 0 0 42px rgba(255,122,38,0.5); }
+  .sub { margin-top: 22px; font: 700 26px 'Consolas', monospace; letter-spacing: 5px; color: #cfc4b2; }
+  .stamp { position: absolute; right: 70px; top: 200px; transform: rotate(-7deg);
+    border: 4px solid #ff7a26; color: #ff7a26; padding: 10px 22px;
+    font: 900 21px 'Consolas', monospace; letter-spacing: 3px; opacity: 0.85;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.4) inset; }
+  .bottomline { display: flex; justify-content: space-between; align-items: flex-end;
+    font: 700 18px 'Consolas', monospace; letter-spacing: 3px; color: #9a8f80; }
+  .wpai { font: 900 30px 'Arial Black', sans-serif; letter-spacing: 6px; color: #ede4d6; }
+  .wpai .ember { color: #ff7a26; }
+  .tag { font-size: 15px; letter-spacing: 2px; color: #7d7466; margin-top: 4px; }
+</style></head>
+<body>
+  <div class="corner tl"></div><div class="corner tr"></div>
+  <div class="corner bl"></div><div class="corner br"></div>
+  <div class="topline"><span>WPAI FIELD SERIES <span class="ember">&#9632;</span> FM-01</span><span>FORGE 1.20.1 / NEOFORGE 1.21</span></div>
+  <div class="rule"></div>
+  <div class="main">
+    <div class="kicker">THE</div>
+    <h1>MIXIN<br>FIELD <span class="ember">MANUAL</span></h1>
+    <div class="sub">CROSS-MOD COMPATIBILITY &mdash; FOR WHEN 300 OTHER MODS SHOW UP</div>
+  </div>
+  <div class="stamp">NOTHING THEORETICAL</div>
+  <div class="bottomline">
+    <div><div>12 CHAPTERS &middot; 4 APPENDICES &middot; 5 WAR STORIES</div><div class="tag">EVERY EXCERPT FROM SHIPPED, WORKING MODS</div></div>
+    <div class="wpai">WP<span class="ember">AI</span></div>
+  </div>
+</body></html>

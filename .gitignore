@@ -1,0 +1,16 @@
+# Regenerated book output and packaged release archive.
+build/
+MixinFieldManual-v1.0.zip
+
+# Local Python state and credentials.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
